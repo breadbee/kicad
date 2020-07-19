@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# usbc-16p
+#
+DEF usbc-16p U 0 40 Y Y 1 F N
+F0 "U" 0 -50 50 H V C CNN
+F1 "usbc-16p" 0 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -450 850 250 -850 0 1 0 N
+X gnd a1 -650 750 197 R 50 50 1 1 w
+X gnd a12 -650 -650 197 R 50 50 1 1 w
+X vbus a4 -650 550 197 R 50 50 1 1 W
+X cc1 a5 -650 350 197 R 50 50 1 1 B
+X dp1 a6 -650 150 197 R 50 50 1 1 B
+X dn1 a7 -650 -50 197 R 50 50 1 1 B
+X sbu1 a8 -650 -250 197 R 50 50 1 1 U
+X vbus a9 -650 -450 197 R 50 50 1 1 W
+X gnd b1 -650 -750 197 R 50 50 1 1 w
+X gnd b12 -650 650 197 R 50 50 1 1 w
+X vbus b4 -650 -550 197 R 50 50 1 1 W
+X cc2 b5 -650 -350 197 R 50 50 1 1 B
+X dp2 b6 -650 -150 197 R 50 50 1 1 B
+X dn2 b7 -650 50 197 R 50 50 1 1 B
+X sbu2 b8 -650 250 197 R 50 50 1 1 U
+X vbus b9 -650 450 197 R 50 50 1 1 W
+X shield shield 0 -1100 242 U 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
